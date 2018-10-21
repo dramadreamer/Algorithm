@@ -1,10 +1,10 @@
-<h1>최대와 최소</h1>
-Q.최대 값과 최소 값을 구하는 함수
-============
+# 최대와 최소
+### Q.최대 값과 최소 값을 구하는 함수
+
 간단한 문제부터 시작하자. 두 개의 정수(int 형)를 인자로 받아서 둘 중 큰 값을 반환하는 함수  max()와
 둘 중 작은 값을 반환하는 함수 main()을 작성하자.
 
-<h3>내가 적은 답</h3>
+### 내가 적은 답
 <pre>
 package src;
 public class Main {
@@ -33,7 +33,7 @@ static int Min(int value1, int value2)
 }     
 </pre>
 
-<h3>문제풀이 답</h3>
+### 문제풀이 답
 <pre>
 static int Max(int value1, int value2)
 {
@@ -51,12 +51,13 @@ static int Min(int value1, int value2)
 }
 </pre>
 
-<h3> Q.배열의 최대 값을 구하는 함수.</h3>
-------------
+
+### Q.배열의 최대 값을 구하는 함수
+
 정수 배열에서 가장 큰 값을 반환하는 함수max_arr()을 작성해보자.
 배열과 배열의 크기를 인자로 받는다.
 
-<h3>내가 적은 답</h3>
+### 내가 적은 답
 <pre>
 static int max_arr(int arrSize, int[] arr)
 {
@@ -89,7 +90,7 @@ static int max_arr(int arrSize, int[] arr)
 }
 </pre>
 
-<h3>문제풀이 답</h3>
+### 문제풀이 답
 <pre>
 static int max(int x, int y)
 {
@@ -106,8 +107,8 @@ static int max_arr2(int[] arr, int arrSize)
 }
 </pre>
 
-<h3>문제풀이</h3>
-int[] intArr = {1, 7, 3}; 일 때
+### 문제풀이
+* int[] intArr = {1, 7, 3}; 일 때 <br/>
 1. max_arr2(intArr, 3);
 2. arrsize != 1
 3. max(3, max_arr2(arr, 2));
